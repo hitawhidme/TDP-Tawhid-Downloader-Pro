@@ -1,4 +1,26 @@
-# TDP — Tawhid Downloader Pro
+<p align="center">
+  <img src="assets/logo.png" alt="TDP Logo" width="160"/>
+</p>
+
+<h1 align="center">TDP — Tawhid Downloader Pro</h1>
+
+<p align="center">
+  A powerful Windows video downloader supporting 1000+ websites.
+</p>
+
+<p align="center">
+  <a href="https://github.com/hitawhidme/TDP-Tawhid-Downloader-Pro/releases/latest">
+    <img src="https://img.shields.io/github/v/release/hitawhidme/TDP-Tawhid-Downloader-Pro?label=Latest%20Version&style=for-the-badge" alt="Latest Release"/>
+  </a>
+  <img src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-blue?style=for-the-badge" alt="Platform"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/hitawhidme/TDP-Tawhid-Downloader-Pro/releases/latest/download/Tawhid.Downloader.Pro.exe">
+    <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_NOW-Tawhid.Downloader.Pro.exe-2ea44f?style=for-the-badge&logo=windows" alt="Download Now"/>
+  </a>
+</p>
+
 
 A powerful Windows video downloader supporting 1000+ websites.
 
@@ -9,7 +31,14 @@ A powerful Windows video downloader supporting 1000+ websites.
 👉 Go to the **[Releases](../../releases)** page and download:
 
 `Tawhid.Downloader.Pro.exe`
+## 📸 Screenshots
 
+<p align="center">
+  <img src="assets/screenshot-1.png" alt="TDP - Main Screen" width="45%"/>
+  <img src="assets/screenshot-2.png" alt="TDP - Downloading Preview" width="45%"/>
+</p>
+
+<p align="center"><i>বাম দিকে: প্রথম ওপেন করার পর মেইন স্ক্রিন। ডান দিকে: URL পেস্ট করে ভিডিও প্রিভিউ লোড হওয়ার পর।</i></p>
 ## ✨ Features
 
 * 🌐 Supports 1000+ supported websites
