@@ -22,7 +22,7 @@
 </p>
 
 
-A powerful Windows video downloader supporting 1000+ websites.
+
 
 ## 🚀 Download
 
