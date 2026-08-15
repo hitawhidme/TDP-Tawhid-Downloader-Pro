@@ -1,0 +1,41 @@
+name: ✨ Feature Request
+description: নতুন কোনো ফিচার বা সাজেশন দিতে চাইলে এখানে জানান
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        আপনার আইডিয়া TDP কে আরও ভালো বানাতে সাহায্য করবে। শেয়ার করুন!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: কোন সমস্যা সমাধান করতে চাচ্ছেন?
+      description: বর্তমানে যে অসুবিধাটা হচ্ছে সেটা লিখুন (থাকলে)।
+      placeholder: যেমন — একসাথে অনেকগুলো ভিডিও লিংক দিয়ে বাল্ক ডাউনলোড করার উপায় নাই।
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: কী ফিচার চাচ্ছেন?
+      description: আপনার আইডিয়াটা বিস্তারিত লিখুন।
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: অন্য কোনো বিকল্প ভেবেছেন?
+      description: এই সমস্যার অন্য কোনো সমাধান মাথায় থাকলে লিখতে পারেন।
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: অতিরিক্ত কিছু (স্ক্রিনশট, লিংক ইত্যাদি)
+    validations:
+      required: false

@@ -1,0 +1,64 @@
+name: 🐛 Bug Report
+description: কোনো সমস্যা বা bug খুঁজে পেলে এখানে জানান
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        সমস্যাটা যত বিস্তারিত লিখবেন, ঠিক করা তত সহজ হবে। ধন্যবাদ!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: সমস্যাটা কী?
+      description: কী হচ্ছে এবং কী হওয়ার কথা ছিল, তা লিখুন।
+      placeholder: যেমন — ভিডিও ডাউনলোড শুরু হয় না, "Get Info" ক্লিক করলে app বন্ধ হয়ে যায় ইত্যাদি।
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: কীভাবে সমস্যাটা আবার আনা যাবে (Steps to Reproduce)
+      placeholder: |
+        ১. এই URL পেস্ট করলাম...
+        ২. Get Info-তে ক্লিক করলাম...
+        ৩. তারপর এই সমস্যা হলো...
+    validations:
+      required: false
+
+  - type: input
+    id: url
+    attributes:
+      label: কোন ওয়েবসাইটের ভিডিও/লিংকে সমস্যা হচ্ছে?
+      placeholder: যেমন — facebook.com, youtube.com ইত্যাদি
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: TDP-এর কোন ভার্সন ব্যবহার করছেন?
+      placeholder: যেমন — v2.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Windows ভার্সন
+      options:
+        - Windows 10
+        - Windows 11
+        - অন্য
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: স্ক্রিনশট (যদি থাকে)
+      description: ছবি এখানে drag করে বা paste করে দিতে পারেন।
+    validations:
+      required: false
